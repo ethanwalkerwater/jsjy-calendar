@@ -15,6 +15,7 @@
 ## 开发规范
 
 - [Agent 开发规范](./development/AGENTS.md)
+- [GitHub 同步规范](./development/GITHUB_SYNC.md)
 
 ## 后续分类
 
