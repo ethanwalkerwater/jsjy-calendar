@@ -57,7 +57,7 @@ Residual risks:
 - 尚未解决但不阻塞本次同步的问题
 ```
 
-没有内容的栏目不写。消息必须描述实际变化，不能只写“update”“sync files”或“misc changes”。
+没有内容的栏目不写。消息必须描述实际变化，不能只写“update”“sync files”或“misc changes”。提交时必须使用真实多行消息，不得把 `\n` 字符串写进正文；优先通过消息文件或 heredoc 传递长消息。
 
 ## 安全边界
 
