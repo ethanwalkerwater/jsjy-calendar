@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+
+# Local agent and browser tooling
+.agents/
+.clawhub/
+.playwright/
+.playwright-cli/
+.tmp_pdf/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.sqlite3
+staticfiles/
+media/
+
+# Logs and backups
+*.log
+backups/
+*.dump
+*.sql.gz
+
+# Private business data
+data/private/
